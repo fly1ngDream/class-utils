@@ -21,7 +21,7 @@
 
 ---
 
-##### default_property
+#### default_property
 
 ``` python
 from class_utils import default_property
@@ -42,7 +42,7 @@ print(point1.x) # => 3
 
 ---
 
-##### typed_property
+#### typed_property
 
 ``` python
 from class_utils import typed_property
@@ -63,7 +63,7 @@ person1.name = 123 # => TypeError: name must be a <class 'str'>
 
 ---
 
-##### DefaultRepresentationMixin
+#### DefaultRepresentationMixin
 
 ``` python
 from class_utils import default_property, DefaultRepresentationMixin
