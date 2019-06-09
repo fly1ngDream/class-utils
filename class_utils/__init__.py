@@ -1,1 +1,1 @@
-from class_utils import *
+from .class_utils import *

@@ -3,3 +3,4 @@ build
 dist
 LICENSE
 setup.py
+__pycache__
