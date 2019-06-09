@@ -1,0 +1,5 @@
+build
+*.egg*
+dist
+LICENSE
+setup.py
