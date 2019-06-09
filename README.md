@@ -9,8 +9,8 @@
 <!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-refresh-toc -->
 
 #### Properties:
-1. [default_property](#defaultproperty)
-2. [typed_property](#typedproperty)
+1. [default_property](#default_property)
+2. [typed_property](#typed_property)
 
 #### Mixins:
 1. [DefaultRepresentationMixin](#defaultrepresentationmixin)
