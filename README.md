@@ -10,7 +10,8 @@
 
 #### Properties:
 1. [default_property](#default_property)
-2. [typed_property](#typed_property)
+2. [default_getter](#default_getter)
+3. [typed_property](#typed_property)
 
 #### Mixins:
 1. [DefaultRepresentationMixin](#defaultrepresentationmixin)
@@ -36,8 +37,34 @@ class Point():
         self.y = y
 
 
+point1 = Point(1, 4)
+
+print(point1.x) # => 1
+
 point1.x = 3
 print(point1.x) # => 3
+```
+
+---
+
+#### default_getter
+
+``` python
+from class_utils import default_getter
+
+
+class Point():
+    x = default_getter('x')
+    y = default_getter('y')
+
+    def __init__(self, x, y):
+        self._x = x
+        self._y = y
+
+
+point1 = Point(1, 4)
+
+print(point1.x) # => 1
 ```
 
 ---
