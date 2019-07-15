@@ -30,6 +30,16 @@ def default_property(name):
         setattr(self, storage_name, value)
     return prop
 
+def default_getter(name):
+    '''
+    Simplified default class getter
+    '''
+    storage_name = '_' + name
+
+    @property
+    def prop(self):
+        return getattr(self, storage_name)
+    return prop
 
 class DefaultRepresentationMixin:
     '''
